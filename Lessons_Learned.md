@@ -40,7 +40,7 @@ The subroutine will control and track its state from start to finish.
 </br>
 
 # GET THE CURRENT STATE ANMIATION FRAME POINTER
-Return a pointer to the main loop of the program so the current frame of animation can be shown.
+Return an image pointer to the main loop of the program so the current frame of animation can be shown.
 
 
 
