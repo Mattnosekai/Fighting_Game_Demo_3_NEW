@@ -13,6 +13,27 @@ X=current X coordinate
 **_current location facing left=x-(cur_xwidth-xof)_**
 put toscreen,(x-(cur_xwidth-xof),y),cur_ani1
 
+# Program Structure
+A keyboard handler is running at all times. It uses the Win32 API. Every time a key is pressed or released 
+a keyboard event occurs. This event causes a custom function that I wrote to execute. Inside of this function
+is my custom keyboard routines.
+
+Here is the basic program structure...
+# UPDATE INPUT STATE
+Read the keyboard buffer & key presses and also check for motions. 
+# TRANSLATE INPUT STATE TO CURRENT STATE
+Check to make sure the input_state is valid, if so translate it to current state.
+# EXECUTE CURRENT STATE SUBROUTINE
+The states can be anything, for example, punching, kicking, jumping, peforming special moves...etc...
+The subroutine will make sure that the current state is valid to proceed. 
+The subroutine will maintain its state with static variable.
+The subroutine will control animation timing and X & Y coordinate movement.
+The subroutine will control which frames of animation are valid.
+The subroutine will execute and control sounds for specific animations.
+The subroutine will control and track its state from start to finish.
+# GET THE CURRENT STATE ANMIATION FRAME POINTER
+Return a pointer to the main loop of the program so the current frame of animation can be shown.
+
 
 
 
