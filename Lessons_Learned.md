@@ -1,7 +1,7 @@
 # Notes/Thoughts/Lessons learned during development
 
 **For standing & crouching sprites**, (or any ground based sprites), **use a standard Y-Axis**. These sprites should have the same Y axis 
-length , the highest sprite's Y axis can be used. Not doing this causes sprites to be "jumpy". 
+length , the highest sprite's Y axis length can be used. Not doing this causes sprites to be "jumpy". 
 
 **For Left Facing Sprites**, to take Right Facing Sprites and use them to face left, flip the image on the X-Axis. 
 **To get the proper X coordinate for a flipped horizontal sprite:**
