@@ -26,6 +26,8 @@ Check to make sure the input_state is valid, if so translate it to current state
 # EXECUTE CURRENT STATE SUBROUTINE
 The states can be anything, for example, punching, kicking, jumping, peforming special moves...etc...
 <br>
+Each state has its own subroutine.
+<br>
 The subroutine will make sure that the current state is valid to proceed. 
 <br>
 The subroutine will maintain its state with static variables.
@@ -35,6 +37,8 @@ The subroutine will control animation timing and X & Y coordinate movement.
 The subroutine will control which frames of animation are valid.
 <br>
 The subroutine will execute and control sounds for specific animations.
+<br>
+The subroutine can turn the ability to attack/user input On & Off.
 <br>
 The subroutine will control and track its state from start to finish.
 </br>
