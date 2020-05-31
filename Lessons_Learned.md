@@ -24,12 +24,19 @@ Read the keyboard buffer & key presses and also check for motions.
 # TRANSLATE INPUT STATE TO CURRENT STATE
 Check to make sure the input_state is valid, if so translate it to current state.
 # EXECUTE CURRENT STATE SUBROUTINE
+<br>
 The states can be anything, for example, punching, kicking, jumping, peforming special moves...etc...
+<br>
 The subroutine will make sure that the current state is valid to proceed. 
+<br>
 The subroutine will maintain its state with static variable.
+<br>
 The subroutine will control animation timing and X & Y coordinate movement.
+<br>
 The subroutine will control which frames of animation are valid.
+<br>
 The subroutine will execute and control sounds for specific animations.
+<br>
 The subroutine will control and track its state from start to finish.
 # GET THE CURRENT STATE ANMIATION FRAME POINTER
 Return a pointer to the main loop of the program so the current frame of animation can be shown.
