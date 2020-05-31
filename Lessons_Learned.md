@@ -28,7 +28,7 @@ The states can be anything, for example, punching, kicking, jumping, peforming s
 <br>
 The subroutine will make sure that the current state is valid to proceed. 
 <br>
-The subroutine will maintain its state with static variable.
+The subroutine will maintain its state with static variables.
 <br>
 The subroutine will control animation timing and X & Y coordinate movement.
 <br>
