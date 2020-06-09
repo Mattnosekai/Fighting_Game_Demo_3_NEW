@@ -1,5 +1,11 @@
 # Notes/Thoughts/Lessons learned during development
 
+**SUBROUTINE TO HANDLE ANIMATION/STATES**
+The subroutine knows with static variables if it is the first entry or not. The subroutine resets the variable that tracks this
+when it is done. The subroutine knows which frames of animation are next as well as the timer to track the time
+between frames.
+
+
 **For standing & crouching sprites**, (or any ground based sprites), **use a standard Y-Axis**. These sprites should have the same Y axis 
 length , the highest sprite's Y axis length can be used. Not doing this causes sprites to be "jumpy". 
 
@@ -45,6 +51,7 @@ The subroutine will control and track its state from start to finish.
 
 # GET THE CURRENT STATE ANMIATION FRAME POINTER
 Return an image pointer to the main loop of the program so the current frame of animation can be shown.
+
 
 
 
