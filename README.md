@@ -1,4 +1,4 @@
-# Fighting_Game_Demo_3_NEW
+# Fighting_Game_Demo_3_NEW Screenshots:
 
 ![Screenshot](https://github.com/Mattnosekai/Fighting_Game_Demo_3_NEW/blob/master/Screen_Shot1.png)
 
